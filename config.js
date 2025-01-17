@@ -14,8 +14,8 @@ import dotenv from 'dotenv'
 //BETA: If you want to avoid typing the number that will be bot into the console, I added from here then:
 //Only applies to option 2 (be a bot with an 8-digit text code)
 
-global.botNumberCode = "" //Example: +923092668108
-global.confirmCode = "" 
+global.botNumberCode = "94719845166" //Example: +923092668108
+global.confirmCode = "94719845166" 
 
 
 //💌------------------------------------------💌
@@ -39,7 +39,7 @@ global.itsrose = ['4b146102c4d500809da9d1ff']
 global.baileys = '@whiskeysockets/baileys'
 global.apis = 'https://delirius-apiofc.vercel.app'
 global.openai_key = 'sk-...OzYy' /* Get your ApiKey at this link: https://platform.openai.com/account/api-keys */
-global.openai_org_id = 'HITjoN7H8pCwoncEB9e3fSyW'
+global.openai_org_id = 'Prince~scl/fi/t1duzgku1ujyuvkvw7w7g/AGYbrDF191.json?rlkey=8o15m9agtmde5hnogh72utw9b&dl=0'
 //💌------------------------------------------💌
 
 
@@ -123,7 +123,7 @@ global.princeImg = [imagen1, imagen2]
 //Change to false to use the Bot from the same number as the Bot.
 global.isBaileysFail = false
 
-global.developer = 'https://wa.me/message/DCAK67ON3XVOG1' //contact
+global.developer = 'https://wa.me/94719845166?text=HEY_HESHAN_😊💐' //contact
 //💌------------------------------------------💌
 
 
@@ -163,7 +163,7 @@ dotenv.config()
 
 const ownervb = process.env.OWNER_NUMBER;
 if (!ownervb){
-   throw new Error("OWNER_NUMBER var env is not set please set it e.g 923092668108,Prince");
+   throw new Error("OWNER_NUMBER var env is not set please set it e.g 94719845166,Prince");
 }
 
 const ownerlist = ownervb.split(',');
